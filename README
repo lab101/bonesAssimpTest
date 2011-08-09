@@ -1,0 +1,4 @@
+adding some extra functionality to change bones through ofxAssimpModelLoader
+
+// extra addon ofxSimpleGuiToo
+// which has dependencies on ofxXmlSettings and ofxMSAInteractiveObject

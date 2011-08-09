@@ -67,7 +67,7 @@ void ofxAssimpModelLoaderWithBones::rotateX(string boneName,float angle)
 {
 	aiNode* bone = scene->mRootNode->FindNode(boneName);
 	aiMatrix4x4 rotation;
-	bone->mTransformation.RotationX(angle,rotation);
+	aiMatrix4x4::RotationX(angle,rotation);
 	bone->mTransformation *= rotation;
 }
 
@@ -75,7 +75,7 @@ void ofxAssimpModelLoaderWithBones::rotateY(string boneName,float angle)
 {
 	aiNode* bone = scene->mRootNode->FindNode(boneName);
 	aiMatrix4x4 rotation;
-	bone->mTransformation.RotationY(angle,rotation);
+	aiMatrix4x4::RotationY(angle,rotation);
 	bone->mTransformation *= rotation;
 }
 
@@ -83,7 +83,7 @@ void ofxAssimpModelLoaderWithBones::rotateZ(string boneName,float angle)
 {
 	aiNode* bone = scene->mRootNode->FindNode(boneName);
 	aiMatrix4x4 rotation;
-	bone->mTransformation.RotationZ(angle,rotation);
+	aiMatrix4x4::RotationZ(angle,rotation);
 	bone->mTransformation *= rotation;
 }
 

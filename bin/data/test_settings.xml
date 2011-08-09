@@ -1,0 +1,7 @@
+<controls>
+    <SliderFloat_myFloat1>
+        <_noise></_noise>
+        <name>myFloat1: noise</name>
+        <value>0</value>
+    </SliderFloat_myFloat1>
+</controls>
